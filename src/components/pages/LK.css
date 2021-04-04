@@ -1,0 +1,177 @@
+.lk .infoTable {
+    margin-left: 50px;
+}
+
+.lk h3 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.lk .info-input {
+    margin-bottom: 20px;
+}
+
+.lk .info-input span {
+    margin-right: 10px;
+}
+
+.lk .lkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.changeInput {
+    position: fixed;
+    width: 300px;
+    left: calc(50% - 150px);
+    top: calc(50% - 100px);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    height: 200px;
+    background-color: #606060;
+}
+
+.changeInput input {
+    margin-bottom: 20px;
+}
+
+.changingTitle {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.lkTitle {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.AllUsersTitle {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0 30px 20px;
+}
+
+.usersWrapper {
+    max-width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.userWrapperEl {
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.UserWrapField:nth-child(2n) {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.fieldName {
+    margin-right: 20px;
+}
+
+.adminPanelTitle {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.homeFieldWrapper {
+    margin-top: 20px;
+}
+
+.homeField {
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    /*height: 40px;*/
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.homeField span:first-child {
+    margin-right: 20px;
+}
+
+.homeField button {
+    margin-left: auto;
+    height: 100%;
+}
+
+.homeField input {
+    margin-left: auto;
+    height: 100%;
+}
+
+.ButtonsWrapper {
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.ButtonsWrapper button:first-child {
+    margin-right: 30px;
+}
+
+.requestItems {
+    margin-top: 20px;
+}
+
+.requestItem {
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.requestItem span:first-child {
+    margin-right: 30px;
+}
+
+.requestItem button {
+    margin-left: 30px;
+}
+
+.photoSpan {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.lkContainer img {
+    width: 450px;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.info-input-photo {
+    flex-direction: column;
+}
+
+.info-input-photo input {
+    margin: 15px 0;
+}
+
+.info-input-photo button {
+    width: 200px;
+}
